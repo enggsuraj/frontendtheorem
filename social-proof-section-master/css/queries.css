@@ -1,0 +1,59 @@
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url(../images/bg-pattern-bottom-mobile.svg);
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .container__top {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .contianer__top-left {
+    text-align: center;
+  }
+
+  .heading,
+  .description {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .box {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stars {
+    padding: 10px;
+  }
+
+  .b2,
+  .b3 {
+    margin: 0;
+  }
+
+  .container__bottom {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .profile {
+    margin: 0;
+  }
+
+  .p1 {
+    margin-top: 10px;
+  }
+
+  .profile__description h6 {
+    line-height: 20px;
+  }
+}
