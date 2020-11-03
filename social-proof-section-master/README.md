@@ -1,25 +1,17 @@
-# 💰Budget App
+# Social Proof Frontend Mentor Challenge
 
-Javascript based expense tracker using MVC architecture, remodify design and functionality from the The Budget App Project - The Complete Javascript Course 2020. 
+![socialproofsection](https://user-images.githubusercontent.com/6918020/97955783-038cea80-1dcd-11eb-93c2-957a5356c89f.png)
 
-![budgetbook](https://user-images.githubusercontent.com/6918020/96409211-88d7a300-1202-11eb-8a03-8d7e469e93bb.png)
+Link : https://enggsuraj.github.io/Frontend-Mentor-Challenges/social-proof-section-master/
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [ionicons](https://ionicons.com/v2/)
-* [Font](https://fonts.google.com/specimen/Hind)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-
 <!-- CONTACT -->
+
 ## Contact
 
 [@blogtheorem](https://www.instagram.com/blogtheorem) - info.blogtheorem@gmail.com
-
-
-
