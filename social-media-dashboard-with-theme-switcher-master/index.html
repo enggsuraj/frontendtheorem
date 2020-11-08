@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/queries.css">
+  
+  <title>Frontend Mentor | Social Media Dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- 1 -->
+    <div class="header">
+      <div class="header__left">
+        <h1>Social Media Dasboard</h1>
+        <h5>Total Followers: 23,004</h5>
+      </div>
+      <div class="header__right">
+        <h4>Dark Mode</h4>
+        <div class="mode">
+          <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <div class="slider round"></div>
+            </label>
+          </div>             
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="social">
+      <div class="social__item">
+        <div class="social__item-heading">
+          <img src="images/icon-facebook.svg">
+          <h6>@nathanf</h6>
+        </div>
+        <div class="social__item-number">
+          <h2>1987</h2>
+        </div>
+        <div class="social__item-follower">followers</div>
+        <div class="social__item-bottom">
+          <img src="images/icon-up.svg">
+          <h5>12 Today</h5>
+        </div>
+      </div>
+
+      <div class="social__item">
+        <div class="social__item-heading">
+          <img src="images/icon-twitter.svg">
+          <h6>@nathanf</h6>
+        </div>
+        <div class="social__item-number">
+          <h2>1044</h2>
+        </div>
+        <p class="social__item-follower">followers</p>
+        <div class="social__item-bottom">
+          <img src="images/icon-up.svg">
+          <h5>92 Today</h5>
+        </div>
+      </div>
+
+      <div class="social__item">
+        <div class="social__item-heading">
+          <img src="images/icon-instagram.svg">
+          <h5>@realnathanf</h5>
+        </div>
+        <div class="social__item-number">
+          <h2>11K</h2>
+        </div>
+        <p class="social__item-follower">followers</p>
+        <div class="social__item-bottom">
+          <img src="images/icon-up.svg">
+          <h5>1099 Today</h5>
+        </div>
+      </div>
+
+      <div class="social__item">
+        <div class="social__item-heading">
+          <img src="images/icon-youtube.svg">
+          <h5>Nathan F.</h5>
+        </div>
+        <div class="social__item-number">
+          <h2>8239</h2>
+        </div>
+        <p class="social__item-follower">followers</p>
+        <div class="social__item-bottom">
+          <img src="images/icon-down.svg">
+          <h5>144 Today</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="Overview__header">
+      <h2>Overview- Today</h2>
+    </div>
+
+    <!-- 4 -->
+    <div class="stats">
+      <div class="stats__item">
+        <div class="stats__item-top">
+          <h5>page Views</h5>
+          <img src="images/icon-facebook.svg">
+        </div>
+        <div class="stats__item-bottom">
+          <h2>87</h2>
+          <div class="stats__item-bottom-right">
+            <img src="images/icon-up.svg">
+            <h6>3%</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats__item">
+        <div class="stats__item-top">
+          <h5>likes</h5>
+          <img src="images/icon-facebook.svg">
+        </div>
+        <div class="stats__item-bottom">
+          <h2>52</h2>
+          <div class="stats__item-bottom-right">
+            <img src="images/icon-down.svg">
+            <h6>2%</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats__item">
+        <div class="stats__item-top">
+          <h5>likes</h5>
+          <img src="images/icon-instagram.svg">
+        </div>
+        <div class="stats__item-bottom">
+          <h2>5462</h2>
+          <div class="stats__item-bottom-right">
+            <img src="images/icon-up.svg">
+            <h6>2257%</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats__item">
+        <div class="stats__item-top">
+          <h5>profile Views</h5>
+          <img src="images/icon-instagram.svg">
+        </div>
+        <div class="stats__item-bottom">
+          <h2>52k</h2>
+          <div class="stats__item-bottom-right">
+            <img src="images/icon-up.svg">
+            <h6>1375%</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats__item">
+        <div class="stats__item-top">
+          <h5>retweets</h5>
+          <img src="images/icon-twitter.svg">
+        </div>
+        <div class="stats__item-bottom">
+          <h2>117</h2>
+          <div class="stats__item-bottom-right">
+            <img src="images/icon-up.svg">
+            <h6>303%</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats__item">
+        <div class="stats__item-top">
+          <h5>likes</h5>
+          <img src="images/icon-twitter.svg">
+        </div>
+        <div class="stats__item-bottom">
+          <h2>507</h2>
+          <div class="stats__item-bottom-right">
+            <img src="images/icon-up.svg">
+            <h6>553%</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats__item">
+        <div class="stats__item-top">
+          <h5>likes</h5>
+          <img src="images/icon-youtube.svg">
+        </div>
+        <div class="stats__item-bottom">
+          <h2>107</h2>
+          <div class="stats__item-bottom-right">
+            <img src="images/icon-down.svg">
+            <h6>19%</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats__item">
+        <div class="stats__item-top">
+          <h5>total Views</h5>
+          <img src="images/icon-youtube.svg">
+        </div>
+        <div class="stats__item-bottom">
+          <h2>1407</h2>
+          <div class="stats__item-bottom-right">
+            <img src="images/icon-down.svg">
+            <h6>12%</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">enggsuraj</a>.
+  </div> -->
+
+  <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

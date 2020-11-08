@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+:root {
+  --LimeGreen: hsl(163, 72%, 41%);
+  --BrightRed: hsl(356, 69%, 56%);
+  --Facebook: hsl(208, 92%, 53%);
+  --Twitter: hsl(203, 89%, 53%);
+  --Instagram: linear-gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+  --YouTube: hsl(348, 97%, 39%);
+
+  --body: hsl(230, 17%, 14%);
+  --VeryDark: hsl(232, 19%, 15%);
+  --DarkDesaturated: hsl(228, 28%, 20%);
+  --DesaturatedBlue: hsl(228, 34%, 66%);
+  --text: hsl(0, 0%, 100%);
+  --toggle: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+[data-theme="light"] {
+  --body: white;
+  --VeryDark: white;
+  --DarkDesaturated: hsl(225, 100%, 98%);
+  --text: black;
+  --toggle: hsl(228, 12%, 44%);
+}
+
+body {
+  background-color: var(--body);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.header__left {
+  text-align: left;
+}
+
+.header__left h1 {
+  margin: 5px 0;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right h4 {
+  margin: 0 10px;
+  opacity: 0.5;
+}
+
+.social {
+  display: flex;
+  margin: 40px 0 0 0;
+  justify-content: space-between;
+}
+
+.social__item {
+  width: 260px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: var(--DarkDesaturated);
+}
+
+.social__item:nth-child(1) {
+  border-top: 3px solid var(--Facebook);
+}
+
+.social__item:nth-child(2) {
+  border-top: 3px solid var(--Twitter);
+}
+
+.social__item:nth-child(3) {
+  border-top: 3px solid;
+  border-image-source: linear-gradient(
+    45deg,
+    hsl(37, 97%, 70%),
+    hsl(329, 70%, 58%)
+  );
+  border-image-slice: 1;
+}
+
+.social__item:nth-child(4) {
+  border-top: 3px solid var(--YouTube);
+}
+
+.social__item-number,
+.social__item-number {
+  margin: 10px;
+}
+
+.social__item-heading,
+.social__item-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.social__item-bottom {
+  margin-top: 20px;
+}
+
+.social__item-heading img,
+.social__item-bottom img,
+.stats__item-bottom-right img {
+  margin-right: 5px;
+}
+
+.social__item-number h2 {
+  font-size: 45px;
+}
+
+.social__item-follower {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.social__item-bottom,
+.stats__item-bottom-right {
+  color: var(--LimeGreen);
+}
+
+.social__item:nth-child(4) .social__item-bottom,
+.stats__item:nth-child(2) .stats__item-bottom-right,
+.stats__item:nth-child(7) .stats__item-bottom-right,
+.stats__item:nth-child(8) .stats__item-bottom-right {
+  color: var(--BrightRed);
+}
+
+.Overview__header {
+  margin: 40px 0 10px 0;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.stats__item {
+  flex-basis: 260px;
+  margin-top: 25px;
+  background-color: var(--DarkDesaturated);
+  border-radius: 5px;
+}
+
+.stats__item-top,
+.stats__item-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.stats__item-top h5 {
+  opacity: 0.5;
+}
+
+.stats__item-bottom {
+  align-items: baseline;
+}
+
+.stats__item-bottom-right {
+  display: flex;
+  align-items: center;
+}
+
+/* MODE */
+
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+.theme-switch {
+  display: inline-block;
+  height: 30px;
+  position: relative;
+  width: 50px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background: var(--toggle);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: var(--DarkDesaturated);
+  bottom: 4px;
+  content: "";
+  height: 22px;
+  left: 5px;
+  position: absolute;
+  transition: 0.4s;
+  width: 22px;
+}
+
+input:checked + .slider:before {
+  transform: translateX(18px);
+  background-color: var(--VeryDark);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
