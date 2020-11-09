@@ -3,7 +3,6 @@
     font-size: 12px;
   }
   .container {
-    width: 100%;
     padding: 5px;
   }
   .header {
@@ -14,24 +13,28 @@
   }
 
   .header__right {
-    width: 100%;
-    margin: 10px;
+    margin: 10px 0;
     justify-content: space-between;
   }
 
-  .social {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .header__right h4 {
     margin: 0;
   }
 
-  .social__item {
+  .social {
+    margin-top: 10px;
     width: 100%;
-    margin-top: 20px;
+  }
+
+  .social__item {
+    margin-top: 10px;
   }
 
   .Overview__header {
     width: 55%;
+  }
+
+  .social__item-number h2 {
+    font-size: 25px;
   }
 }

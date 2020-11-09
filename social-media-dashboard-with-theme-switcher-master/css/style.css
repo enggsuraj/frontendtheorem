@@ -58,7 +58,7 @@ a {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 30px;
 }
@@ -93,11 +93,12 @@ a {
 .social {
   display: flex;
   margin: 40px 0 0 0;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .social__item {
-  width: 260px;
+  flex-basis: 260px;
   padding: 10px;
   text-align: center;
   border-radius: 5px;

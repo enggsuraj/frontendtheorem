@@ -7,5 +7,7 @@
       "path": "..\\..\\..\\100DaysofCode\\Quiz-App"
     }
   ],
-  "settings": {}
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Mentors"
+  }
 }
