@@ -1,10 +1,10 @@
-### 💻 < FrontEnd />
-
-Repo for frontend challenges, design ideas, templates etc demo and working prototype.
+💻 Repo for frontend challenges, design ideas, templates etc demo and working prototype.
 
 #### 1. Social Media Front end Challenge
 
 Link: https://enggsuraj.github.io/frontendtheorem/socialmedia/
+
+<hr />
 
 #### 2. Social Proof Section
 
