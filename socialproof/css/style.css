@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+- Mobile: 375px
+- Desktop: 1440px 
+*/
+
+:root {
+  --VeryDarkMagenta: #552054;
+  --SoftPink: #ee68a4;
+  --DarkGrayishMagenta: #937b92;
+  --LightGrayishMagenta: #f7f2f7;
+  --White: white;
+}
+
+h1 {
+  color: var(--VeryDarkMagenta);
+  font-weight: 700;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  background-image: url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+.container__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.container__top-left {
+  flex-basis: 50%;
+}
+
+.heading {
+  width: 80%;
+  justify-content: left;
+}
+
+.description {
+  width: 90%;
+}
+
+.description p {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--DarkGrayishMagenta);
+}
+
+/* RIGHT SIDE */
+
+.container__top-right .box {
+  margin-top: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  background-color: var(--LightGrayishMagenta);
+  width: 350px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.b2 {
+  margin-left: 20px;
+}
+
+.b3 {
+  margin-left: 40px;
+}
+
+.stars {
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+.ratestars {
+  float: left;
+}
+
+.ratestars h5 {
+  color: var(--VeryDarkMagenta);
+}
+
+/* BOTTOM CARD */
+
+.container__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.profile {
+  padding: 25px;
+  background-color: var(--VeryDarkMagenta);
+  border-radius: 5px;
+  width: 270px;
+  margin: 10px;
+}
+
+.profile__header {
+  display: flex;
+}
+
+.image img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-left: 15px;
+}
+
+.name h5 {
+  color: var(--LightGrayishMagenta);
+}
+
+.name h6 {
+  color: var(--SoftPink);
+}
+
+.profile__description {
+  margin-top: 10px;
+  color: var(--LightGrayishMagenta);
+}
+
+.p2 {
+  transform: translateY(20px);
+}
+
+.p3 {
+  transform: translateY(40px);
+}
