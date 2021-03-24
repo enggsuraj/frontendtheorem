@@ -2,10 +2,10 @@
 
 #### 1. Social Media Front end Challenge
 
-Link: https://enggsuraj.github.io/frontendtheorem/socialmedia/
+Link: <a href="https://enggsuraj.github.io/frontendtheorem/socialmedia/"> https://enggsuraj.github.io/frontendtheorem/socialmedia/ </a>
 
 <hr />
 
 #### 2. Social Proof Section
 
-Link: https://enggsuraj.github.io/frontendtheorem/socialproof/
+Link: <a href="https://enggsuraj.github.io/frontendtheorem/socialproof/" >https://enggsuraj.github.io/frontendtheorem/socialproof/ </a>
