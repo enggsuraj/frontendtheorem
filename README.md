@@ -9,3 +9,9 @@ Link: https://enggsuraj.github.io/frontendtheorem/socialmedia/
 #### 2. Social Proof Section
 
 Link: https://enggsuraj.github.io/frontendtheorem/socialproof/
+
+<hr />
+
+#### 2. Profile Card
+
+Link: https://enggsuraj.github.io/frontendtheorem/profilecard/
