@@ -14,4 +14,4 @@ Link: https://enggsuraj.github.io/frontendtheorem/socialproof/
 
 #### 3. Profile Card
 
-Link: <a href="https://enggsuraj.github.io/frontendtheorem/socialproof/">https://enggsuraj.github.io/frontendtheorem/socialproof/ </a>
+Link: <a href="https://enggsuraj.github.io/frontendtheorem/profilecard/">https://enggsuraj.github.io/frontendtheorem/profilecard/ </a>
