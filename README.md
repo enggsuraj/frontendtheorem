@@ -20,4 +20,4 @@ Link: <a href="https://enggsuraj.github.io/frontendtheorem/profilecard/">https:/
 
 #### 4. Project Tracker
 
-Link: <a href="https://enggsuraj.github.io/frontendtheorem/project-tracker">https://enggsuraj.github.io/frontendtheorem/project-tracker/ </a>
+Link: <a href="https://enggsuraj.github.io/frontendtheorem/project-tracking">https://enggsuraj.github.io/frontendtheorem/project-tracking/ </a>
