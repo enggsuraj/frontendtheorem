@@ -8,7 +8,7 @@ Link: <a href="https://enggsuraj.github.io/frontendtheorem/socialmedia/"> https:
 
 #### 2. Social Proof Section
 
-Link: <a href="https://enggsuraj.github.io/frontendtheorem/socialproof/">https://enggsuraj.github.io/frontendtheorem/socialproof/</a>
+Link: <a href="https://enggsuraj.github.io/frontendtheorem/socialproof/">https://enggsuraj.github.io/frontendtheorem/socialproof/ </a>
 
 <hr />
 
