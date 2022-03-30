@@ -50,6 +50,7 @@ body {
   color: var(--text);
   font-family: "Inter", sans-serif;
   font-size: 14px;
+  height: 100vh;
 }
 
 a {
@@ -59,8 +60,11 @@ a {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 30px;
+}
+
+.wrapper {
 }
 
 /* HEADER */
@@ -68,7 +72,6 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
   align-items: center;
 }
 
