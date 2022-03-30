@@ -22,6 +22,8 @@ Link: <a href="https://enggsuraj.github.io/frontendtheorem/profilecard/">https:/
 
 Link: <a href="https://enggsuraj.github.io/frontendtheorem/project-tracking">https://enggsuraj.github.io/frontendtheorem/project-tracking/ </a>
 
+<hr />
+
 #### 5. QR-Code
 
 Link: <a href="https://enggsuraj.github.io/frontendtheorem/qr-code">https://enggsuraj.github.io/frontendtheorem/qr-code/ </a>
