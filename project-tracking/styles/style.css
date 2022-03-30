@@ -149,7 +149,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 0.5rem;
-  font-size: 48px;
+  font-size: 56px;
 }
 
 .container {
@@ -284,9 +284,7 @@ button:hover {
   }
 
   .container {
-    display: -ms-grid;
-    display: grid;
-    margin-top: 2rem;
+    margin: 2rem;
   }
 
   .container__left {
