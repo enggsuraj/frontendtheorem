@@ -23,27 +23,29 @@ h1 {
 }
 
 body {
-  font-size: 15px;
   font-family: "Spartan", sans-serif;
   background-image: url(../images/bg-pattern-bottom-desktop.svg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* CONTAINER */
 
 .container {
-  width: 1000px;
-  margin: 50px auto;
-  padding: 50px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .container__top {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 30px;
 }
 
 .container__top-left {
@@ -51,7 +53,7 @@ body {
 }
 
 .heading {
-  width: 80%;
+  font-size: 22px;
   justify-content: left;
 }
 
@@ -70,7 +72,7 @@ body {
 /* RIGHT SIDE */
 
 .container__top-right .box {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .box {
@@ -78,17 +80,21 @@ body {
   justify-content: left;
   padding: 10px;
   background-color: var(--LightGrayishMagenta);
-  width: 350px;
+  width: 400px;
   border-radius: 5px;
   align-items: center;
 }
 
+.b1 {
+  margin-right: 100px;
+}
+
 .b2 {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .b3 {
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 .stars {
@@ -113,10 +119,11 @@ body {
 }
 
 .profile {
-  padding: 25px;
+  font-size: 20px;
+  padding: 40px;
   background-color: var(--VeryDarkMagenta);
   border-radius: 5px;
-  width: 270px;
+  width: 350px;
   margin: 10px;
 }
 
@@ -142,7 +149,8 @@ body {
 }
 
 .profile__description {
-  margin-top: 10px;
+  margin-top: 20px;
+  line-height: 20px;
   color: var(--LightGrayishMagenta);
 }
 
