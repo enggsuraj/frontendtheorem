@@ -27,3 +27,9 @@ Link: <a href="https://enggsuraj.github.io/frontendtheorem/project-tracking">htt
 #### 5. QR-Code
 
 Link: <a href="https://enggsuraj.github.io/frontendtheorem/qr-code">https://enggsuraj.github.io/frontendtheorem/qr-code/ </a>
+
+<hr />
+
+#### 6. NFT
+
+Link: <a href="https://enggsuraj.github.io/frontendtheorem/nft">https://enggsuraj.github.io/frontendtheorem/nft/ </a>
