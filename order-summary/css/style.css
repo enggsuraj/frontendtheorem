@@ -123,11 +123,7 @@ body {
 }
 
 .button:hover {
-  padding: 10px;
   background-color: var(--card-2);
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 20px;
   cursor: pointer;
 }
 
