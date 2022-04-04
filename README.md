@@ -33,3 +33,9 @@ Link: <a href="https://enggsuraj.github.io/frontendtheorem/qr-code">https://engg
 #### 6. NFT
 
 Link: <a href="https://enggsuraj.github.io/frontendtheorem/nft">https://enggsuraj.github.io/frontendtheorem/nft/ </a>
+
+<hr />
+
+#### 7. Order-Summary
+
+Link: <a href="https://enggsuraj.github.io/frontendtheorem/order-summary">https://enggsuraj.github.io/frontendtheorem/order-summary/</a>
