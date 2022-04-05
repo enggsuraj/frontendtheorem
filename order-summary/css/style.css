@@ -119,7 +119,7 @@ body {
   background-color: var(--card-1);
   color: white;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .button:hover {
