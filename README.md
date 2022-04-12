@@ -1,17 +1,17 @@
 💻 Repo for frontend challenges, design ideas, templates etc demo and working prototype.
 
-<a href="https://enggsuraj.github.io/frontendtheorem/socialmedia/">SocialMedia </a>
+1. <a target="_blank" href="https://enggsuraj.github.io/frontendtheorem/socialmedia/">Social Media </a>
 
-<a href="https://enggsuraj.github.io/frontendtheorem/socialproof/">SocialProof </a>
+2. <a target="_blank" href="https://enggsuraj.github.io/frontendtheorem/socialproof/">Social Proof </a>
 
-<a href="https://enggsuraj.github.io/frontendtheorem/profilecard/">Profile Card Compnent</a>
+3. <a target="_blank" href="https://enggsuraj.github.io/frontendtheorem/profilecard/">Profile Card Compnent</a>
 
-<a href="https://enggsuraj.github.io/frontendtheorem/project-tracking">Project Tracking</a>
+4. <a target="_blank" href="https://enggsuraj.github.io/frontendtheorem/project-tracking">Project Tracking</a>
 
-<a href="https://enggsuraj.github.io/frontendtheorem/qr-code">QR - Code</a>
+5. <a target="_blank" href="https://enggsuraj.github.io/frontendtheorem/qr-code">QR - Code</a>
 
-<a href="https://enggsuraj.github.io/frontendtheorem/nft">NFT</a>
+6. <a target="_blank" href="https://enggsuraj.github.io/frontendtheorem/nft">NFT</a>
 
-<a href="https://enggsuraj.github.io/frontendtheorem/order-summary">Order Summary</a>
+7. <a target="_blank" href="https://enggsuraj.github.io/frontendtheorem/order-summary">Order Summary</a>
 
-<a href="https://enggsuraj.github.io/frontendtheorem/advice-generator">Advice Generator</a>
+8. <a target="_blank" href="https://enggsuraj.github.io/frontendtheorem/advice-generator">Advice Slip Generator</a>
